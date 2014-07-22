@@ -16,7 +16,7 @@ app.service('parseService', function($http, $q){
 
   this.getData = function(){
     var deferred = $q.defer();
-    var url = 'https://api.parse.com' + '/1/classes/chat' + '?order=-text';
+    var url = 'https://api.parse.com' + '/1/classes/chat' + '?order=-createdAt';
     $http({
       method: 'GET',
       url: url

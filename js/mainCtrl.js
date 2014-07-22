@@ -17,4 +17,8 @@ app.controller('mainCtrl', function($scope, parseService){
   };
 
   $scope.getParseData();
+
+  setInterval(function(){
+    $scope.getParseData();
+  }, 1000)
 })
