@@ -1,2 +1,30 @@
-parse-twitter-clone
-===================
+ChatRoom
+========
+
+Now is the moment you've all been waiting for. We're going to be dealing with a 'back-end' and now all of our data is going to persist. IE when you refresh, the data will still be there. 
+
+We're going to be building a basic chatroom so by the end of class, you'll all be able to chat with each other. 
+
+The concepts this project will cover are 
+1. Angular Services
+2. Angular Promises ie $q
+3. $http
+4. Passing a service into a controller
+
+
+##Step 1: Clone and Disect the Repo
+* Fork and clone this repository.
+* This is the first project where you'll have to work with part of the code that's already in place.
+* You should only touch mainCtrl.js and parseService.js, everything else is already set up for you
+* Although very convenient, because other parts of the application are already set for you, you need to understand what that code is doing in order to work with it. 
+* Go and check out the index.html page. You'll notice that in the message-container class there's an ng-repat looping over messages. This means that somehow, you need to have 'messages' on the scope which should also have a 'text' property.
+
+
+##Step 2: Build your parseService
+* In Angular we use 'services' to outsource some of our heavy lifting. That's exactly what we're going to do with this app. 
+* Open up parseService.js and read the instructions. The bigger picture is that this service is going to have two methods, getData and postData. getData will get the chats from our parse backend, and postData will be able to post new messages to the parse backend.
+
+
+##Step 3: Tie in your Controller
+* Now that your parseService is finished, we somehow need a way to tie the data we're getting from parseService.getData to our scope to show in our view. This sounds like the perfect use case for a controller. 
+* Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to parseService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope
