@@ -1,7 +1,6 @@
 var app = angular.module('twitterClone');
 
 app.controller('mainCtrl', function($scope, parseService){
-  $scope.test = 'sefoisefjkhsefj';
   $scope.getParseData = function(){
     parseService.getData()
     .then(function(messages){
@@ -15,8 +14,6 @@ app.controller('mainCtrl', function($scope, parseService){
       $scope.getParseData();
     })
   };
-
-  $scope.getParseData();
 
   setInterval(function(){
     $scope.getParseData();
