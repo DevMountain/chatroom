@@ -34,3 +34,8 @@ The concepts this project will cover are
 
 ##Step4: That's it
 * If all went well you should be able to open up your index.html page and chat with those who also finished. If you got this far, great job! Review angular promises and $http. They're fundamental to any apps built with Angular.
+
+
+##Step 5: Black Diamond
+* Right now it just shows the message. The object you get back from parse also has a createdAt property. Change the UI to show the message, and what time it was created at in normal, human readable formats. 
+* Sign up with parse and create your own private chatroom with your own API keys.
