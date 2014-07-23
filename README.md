@@ -14,7 +14,7 @@ The concepts this project will cover are
 4. Passing a service into a controller
 
 
-##Step 1: Clone and Disect the Repo
+##Step 1: Clone and Dissect the Repo
 * Fork and clone this repository.
 * This is the first project where you'll have to work with part of the code that's already in place.
 * You should only touch mainCtrl.js and parseService.js, everything else is already set up for you
