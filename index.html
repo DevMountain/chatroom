@@ -8,7 +8,9 @@
   <body ng-controller="mainCtrl">
     <div class="main-container">
       <h1> DevMountain Chat Room </h1>
-      <input class="form-control text-box" type="text" ng-model="message" placeholder="Message" ng-enter="postData()">
+      <form ng-submit="postData()">
+        <input class="form-control text-box" type="text" ng-model="message" placeholder="Message">
+      </form>
       <div class="messages-container">
         <p ng-repeat="message in messages"> {{message.text}} </p>
       </div>
