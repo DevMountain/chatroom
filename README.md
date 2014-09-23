@@ -3,7 +3,7 @@ ChatRoom
 
 Now is the moment you've all been waiting for. We're going to be dealing with a 'back-end' and now all of our data is going to persist. IE when you refresh, the data will still be there. 
 
-We're going to be building a basic chatroom so by the end of class, you'll all be able to chat with each other. 
+We're going to be building a basic chatroom so by the end of class, you'll all be able to chat with each other. Here's what you'll be working towards (http://jaredbeauchamp.com/experiments/chatroom/index.html). You'll have to do some CSS magic to make it look that good, but feel free to get creative with the styling once you finish the core project.
 
 *This lesson is going to feel a little less hand holdy than the others have felt. That's on purpose. We're going to be dealing with some pretty advanced topics. Nothing you can't handle, it will just take some time and focus to figure out. 
 
