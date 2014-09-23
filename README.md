@@ -39,4 +39,5 @@ The concepts this project will cover are
 ##Step 5: Black Diamond
 * Right now it just shows the message. The object you get back from parse also has a createdAt property. Change the UI to show the message, and what time it was created at in normal, human readable formats. 
 * Reformat the App (and reserach more with Parse) on how to create your own rooms so that users can create a room then see only the chats in those specific rooms.
+* Make the styling look more...professional.
 * Sign up with parse and create your own private chatroom with your own API keys.
