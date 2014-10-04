@@ -1,4 +1,4 @@
-var app = angular.module('twitterClone');
+var app = angular.module('chatroom');
 
 app.controller('mainCtrl', function($scope, parseService){
   //In your controller you'll have a getParseData function and a postData function, but should be placed on $scope.
