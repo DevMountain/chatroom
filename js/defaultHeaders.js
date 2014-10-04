@@ -1,4 +1,4 @@
-var app = angular.module('twitterClone');
+var app = angular.module('chatroom');
 
 app.factory('httpRequestInterceptor', function () {
   return {
