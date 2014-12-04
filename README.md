@@ -9,9 +9,8 @@ We're going to be building a basic chatroom so by the end of class, you'll all b
 
 The concepts this project will cover are 
 1. Angular Services
-2. Angular Promises ie $q
-3. $http
-4. Passing a service into a controller
+2. $http
+3. Passing a service into a controller
 
 
 ##Step 1: Clone and Dissect the Repo
@@ -32,11 +31,11 @@ The concepts this project will cover are
 * Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to parseService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope
 
 
-##Step4: That's it
+##Step4: 
 * If all went well you should be able to open up your index.html page and chat with those who also finished. If you got this far, great job! Review angular promises and $http. They're fundamental to any apps built with Angular.
 
 
-##Step 5: Black Diamond
+##Step 5: Add Some Flavor
 * Right now it just shows the message. The object you get back from parse also has a createdAt property. Change the UI to show the message, and what time it was created at in normal, human readable formats.
 * Make the Chatroom filterable by message
 * Be able to order the chatroom by date posted
