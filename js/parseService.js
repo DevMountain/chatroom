@@ -1,6 +1,6 @@
 var app = angular.module('chatroom');
 
-app.service('parseService', function($http, $q){
+app.service('parseService', function($http){
   //Here you'll need to create two methods. One called postData and the other called getData.
   
   //On the lines below create a getData method. This method will retrieve data from the parse backend.
@@ -16,20 +16,6 @@ app.service('parseService', function($http, $q){
   //Also, remember that $http returns a promise. So if you return the whole $http call (return $http(...)), you can then use .then in your controller.
   
   //postData method here
-
-
-
-  
-  
-  /* IGNORE THE PARAGRAPH BELOW! WE DIDN'T COVER THIS TODAY */
-     /*Also, we want to be able to manipulate the data we get back from parse before we pass it back to our controller. The problem is 
-     when we're making a request, we don't know when the response will come back. This sound like a perfect use case for a promise. We can 
-     create a promise that resolves with the correct data from parse whenever our $http get requests finishes. 
-     Because of the way parse sends back their data, let's resolve our promise with data.data.results if you had the original parameter be date like below.
-    .then(function(data){
-      deferred.resolve(data.data.results)
-    })
-  */
   
   
   //getData method here
