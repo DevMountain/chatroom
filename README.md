@@ -31,7 +31,7 @@ The concepts this project will cover are
 * Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to parseService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope
 
 
-##Step 4: 
+##Step 4: Review
 * If all went well you should be able to open up your index.html page and chat with those who also finished. If you got this far, great job! Review angular promises and $http. They're fundamental to any apps built with Angular.
 
 
