@@ -40,6 +40,6 @@ The concepts this project will cover are
 * Right now it just shows the message. The object you get back from parse also has a createdAt property. Change the UI to show the message, and what time it was created at in normal, human readable formats.
 * Make the Chatroom filterable by message
 * Be able to order the chatroom by date posted
-* Reformat the App (and reserach more with Parse) on how to create your own rooms so that users can create a room then see only the chats in those specific rooms, then create a button for which users can create their own rooms.
+* Reformat the App (and research more with Parse) on how to create your own rooms so that users can create a room then see only the chats in those specific rooms, then create a button for which users can create their own rooms.
 * Make the styling look more...professional.
 * Sign up with parse and create your own private chatroom with your own API keys.
