@@ -5,12 +5,13 @@ Now is the moment you've all been waiting for. We're going to be dealing with a 
 
 We're going to be building a basic chatroom so by the end of class, you'll all be able to chat with each other. Here's what you'll be working towards (http://jaredbeauchamp.com/experiments/chatroom/index.html). You'll have to do some CSS magic to make it look that good, but feel free to get creative with the styling once you finish the core project.
 
-*This lesson is going to feel a little less hand holdy than the others have felt. That's on purpose. We're going to be dealing with some pretty advanced topics. Nothing you can't handle, it will just take some time and focus to figure out. 
+*This lesson is going to feel a little less hand holdy than the others have felt. That's on purpose. We're going to be dealing with some pretty advanced topics. Nothing you can't handle, it will just take some time and focus to figure out.*
 
 The concepts this project will cover are 
+
 1. Angular Services
 2. $http
-3. Passing a service into a controller
+3. Injecting a service into a controller
 
 
 ##Step 1: Clone and Dissect the Repo
