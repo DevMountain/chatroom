@@ -5,12 +5,13 @@ Now is the moment you've all been waiting for. We're going to be dealing with a 
 
 We're going to be building a basic chatroom so by the end of class, you'll all be able to chat with each other. Here's what you'll be working towards (http://jaredbeauchamp.com/experiments/chatroom/index.html). You'll have to do some CSS magic to make it look that good, but feel free to get creative with the styling once you finish the core project.
 
-*This lesson is going to feel a little less hand holdy than the others have felt. That's on purpose. We're going to be dealing with some pretty advanced topics. Nothing you can't handle, it will just take some time and focus to figure out. 
+*This lesson is going to feel a little less hand holdy than the others have felt. That's on purpose. We're going to be dealing with some pretty advanced topics. Nothing you can't handle, it will just take some time and focus to figure out.*
 
 The concepts this project will cover are 
+
 1. Angular Services
 2. $http
-3. Passing a service into a controller
+3. Injecting a service into a controller
 
 
 ##Step 1: Clone and Dissect the Repo
@@ -31,7 +32,7 @@ The concepts this project will cover are
 * Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to parseService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope
 
 
-##Step4: 
+##Step 4: Review
 * If all went well you should be able to open up your index.html page and chat with those who also finished. If you got this far, great job! Review angular promises and $http. They're fundamental to any apps built with Angular.
 
 
@@ -39,6 +40,6 @@ The concepts this project will cover are
 * Right now it just shows the message. The object you get back from parse also has a createdAt property. Change the UI to show the message, and what time it was created at in normal, human readable formats.
 * Make the Chatroom filterable by message
 * Be able to order the chatroom by date posted
-* Reformat the App (and reserach more with Parse) on how to create your own rooms so that users can create a room then see only the chats in those specific rooms, then create a button for which users can create their own rooms.
+* Reformat the App (and research more with Parse) on how to create your own rooms so that users can create a room then see only the chats in those specific rooms, then create a button for which users can create their own rooms.
 * Make the styling look more...professional.
 * Sign up with parse and create your own private chatroom with your own API keys.
