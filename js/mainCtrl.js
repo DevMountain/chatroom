@@ -15,7 +15,7 @@ app.controller('mainCtrl', function($scope, parseService){
 
 
   //uncomment this code when your getParseData function is finished
-  //This goes and gets new data every second, which mimicking a chat room experience.
+  //This goes and gets new data every second, mimicking a chat room experience.
   // setInterval(function(){
   //   $scope.getParseData();
   // }, 1500)

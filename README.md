@@ -19,7 +19,7 @@ The concepts this project will cover are
 * This is the first project where you'll have to work with part of the code that's already in place.
 * You should only touch mainCtrl.js and parseService.js, everything else is already set up for you
 * Although very convenient, because other parts of the application are already set for you, you need to understand what that code is doing in order to work with it. 
-* Go and check out the index.html page. You'll notice that in the message-container class there's an ng-repat looping over messages. This means that somehow, you need to have 'messages' on the scope which should also have a 'text' property.
+* Go and check out the index.html page. You'll notice that in the message-container class there's an ng-repeat looping over messages. This means that somehow, you need to have 'messages' on the scope which should also have a 'text' property.
 
 
 ##Step 2: Build your parseService
@@ -29,7 +29,7 @@ The concepts this project will cover are
 
 ##Step 3: Tie in your Controller
 * Now that your parseService is finished, we somehow need a way to tie the data we're getting from parseService.getData to our scope to show in our view. This sounds like the perfect use case for a controller. 
-* Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to parseService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope
+* Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to parseService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope.
 
 
 ##Step 4: Review
@@ -38,8 +38,8 @@ The concepts this project will cover are
 
 ##Step 5: Add Some Flavor
 * Right now it just shows the message. The object you get back from parse also has a createdAt property. Change the UI to show the message, and what time it was created at in normal, human readable formats.
-* Make the Chatroom filterable by message
-* Be able to order the chatroom by date posted
+* Make the Chatroom filterable by message.
+* Be able to order the chatroom by date posted.
 * Reformat the App (and research more with Parse) on how to create your own rooms so that users can create a room then see only the chats in those specific rooms, then create a button for which users can create their own rooms.
 * Make the styling look more...professional.
 * Sign up with parse and create your own private chatroom with your own API keys.
