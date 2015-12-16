@@ -4,13 +4,13 @@ ChatRoom
 ========
 
 ##Objective
-Build a siple chatroom using Angular, services, and the $http service
+Build a siple chatroom using Angular, services, and the $http service.
 
 We're going to be dealing with a 'back-end' and now all of our data is going to persist. IE when you refresh, the data will still be there. 
 
-We're going to be building a basic chatroom so by the end of class, you'll all be able to chat with each other. Here's what you'll be working towards (http://jaredbeauchamp.com/experiments/chatroom/index.html). You'll have to do some CSS magic to make it look that good, but feel free to get creative with the styling once you finish the core project.
+We're going to be building a basic chatroom. By the end of class, you'll all be able to chat with each other. Here's what you'll be working towards (http://jaredbeauchamp.com/experiments/chatroom/index.html). You'll have to do some CSS magic to make it look that good. Feel free to get creative with the styling, once you finish the core project.
 
-*This lesson is going to feel a little less hand holdy than the others have felt. That's on purpose. We're going to be dealing with some pretty advanced topics. Nothing you can't handle, it will just take some time and focus to figure out.*
+*This lesson has a less hand holding than the others have had. That's on purpose. We're going to be dealing with some pretty advanced topics. Nothing you can't handle, it will just take some time and focus to figure out.*
 
 The concepts this project will cover are 
 
