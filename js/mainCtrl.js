@@ -1,6 +1,4 @@
-var app = angular.module('chatroom');
-
-app.controller('mainCtrl', function($scope, parseService){
+angular.module('chatroom').controller('mainCtrl', function($scope, parseService){
   //In your controller you'll have a getParseData function and a postData function, but should be placed on $scope.
 
   //The getParseData function will call the getData method on the parseService object. You'll then save the result of that request to 
