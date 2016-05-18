@@ -10,6 +10,8 @@ We're going to be dealing with a 'back-end' and now all of our data is going to 
 
 We're going to be building a basic chatroom so by the end of class, you'll all be able to chat with each other. Here's what you'll be working towards (http://jaredbeauchamp.com/experiments/chatroom/index.html). You'll have to do some CSS magic to make it look that good, but feel free to get creative with the styling once you finish the core project.
 
+![alt text](https://github.com/DevMountain/chatroom/blob/master/preview.png?raw=true)
+
 *This lesson is going to feel a little less hand holdy than the others have felt. That's on purpose. We're going to be dealing with some pretty advanced topics. Nothing you can't handle, it will just take some time and focus to figure out.*
 
 The concepts this project will cover are 
