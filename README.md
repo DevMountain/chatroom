@@ -7,7 +7,7 @@
 ChatRoom
 ========
 
-Build a siple chatroom using Angular, services, and the $http service
+Build a simple chatroom using Angular, services, and the $http service
 
 We're going to be dealing with a 'back-end' and now all of our data is going to persist. IE when you refresh, the data will still be there. 
 
