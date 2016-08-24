@@ -22,6 +22,10 @@ body {
   text-align: center;
 }
 
+select {
+  margin: auto;
+}
+
 .text-box {
   margin: 0px auto;
   width: 40%;
